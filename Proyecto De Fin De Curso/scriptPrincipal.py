@@ -1,20 +1,22 @@
 # Importamos todo lo necesario
-from dates.data import Artist
+from modulos.gui import  busqueda
+from modulos.data import Artist
 d = Artist
 
 # Programa principal
 
-def principal():
-    
-    while True:  
-        op = input('Quieres buscar canciones?\nsi - no\n').lower()
-        match op:
-            case 'si':
-                d.songs()
-            case 'no':
-                break
-            case _:
-                pass
+#def principal():
+    #busqueda()                
+    #d.songs()
+    #while True:  
+        #op = input('Quieres buscar canciones?\nsi - no\n').lower()
+        #match op:
+            #case 'si':
+                
+            #case 'no':
+                #break
+           # case _:
+                #pass
 
-if __name__ == '__main__':
-    principal()
+#if __name__ == '__main__':
+    #principal()

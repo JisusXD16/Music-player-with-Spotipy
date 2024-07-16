@@ -1,0 +1,1 @@
+from modulos.gui import * # esto hace que el programa se ejecute pendiente de solucionar
